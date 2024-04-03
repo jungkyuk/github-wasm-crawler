@@ -32,7 +32,7 @@ export function writeResults(WASM_ISSUES) {
 
   // the finish event is emitted when all data has been flushed from the stream
   writeStream.on("finish", () => {
-    console.log(`Wrote ${WASM_ISSUES.length} issues to file ${pathName}\n`);
+    console.log(`\nWrote ${WASM_ISSUES.length} issues to file ${pathName}`);
   });
 
   // handle the errors on the write process

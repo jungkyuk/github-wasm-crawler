@@ -24,10 +24,10 @@ async function searchIssues() {
       },
       per_page: 100,
     });
-    console.log(`${resp.length} results found...`)
+    console.log(`${resp.length} results found...\n`)
 
     resp.forEach((issue) => {
-      WASM_ISSUES.push(issue.url);
+      WASM_ISSUES.push(issue['html_url']);
     });
   }
 
