@@ -1,5 +1,5 @@
 # github-wasm-crawler
-A simple script that uses the github API to search for repositories with the topic 'wasm' associated with it and searches for issues related to security vulnerabilities within it.
+A simple script that uses the github API to searche for issues related to security vulnerabilities for each repository in a curated list of repos related to WebAssembly.
 
 ## Installaion
 1. Make sure you have NodeJS installed
